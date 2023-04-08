@@ -15,14 +15,14 @@ set nu
 set relativenumber
 set nowrap
 set wildmode=longest,list   " get bash-like tab completions
-set cc=80                  " set an 80 column border for good coding style
+set cc=88                   " set an 80 column border for good coding style
 filetype plugin indent on   "allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
 set mouse=a                 " enable mouse click
 set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
 set ttyfast                 " Speed up scrolling in Vim
-set noswapfile            " disable creating swap file
+set noswapfile              " disable creating swap file
 set scrolloff=8
 set hidden
 set signcolumn=yes
