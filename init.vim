@@ -32,14 +32,17 @@ call plug#begin()
 " default Neovim dir: stdpath('data') . '/plugged'
 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate' }
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 Plug 'gruvbox-community/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'lewis6991/gitsigns.nvim'
 
 call plug#end()
 
 colorscheme gruvbox
 
+lua require('gitsigns').setup()
 
 " CoC remaps
 " Use tab for trigger completion with characters ahead and navigate.
@@ -181,4 +184,3 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 let mapleader = " "
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
-
