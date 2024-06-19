@@ -3,16 +3,15 @@
   - Compilers
   - Programming Languages
   - Signal Processing
-  - Networking APIs
   - Systems
   - HPC/Parallel Computing/Multi-threading
   - Automated Code Generation
 - 🌱 I’m currently learning ...
-  - go
+  - More C++
 - 💞️ I’m looking to collaborate on ...
-  - Automated Code Generating systems
+  - C++ threading libraries
 - 📫 How to reach me ...
-  - TBD
+  - Open a ticket in one of my repos
 
 <!---
 haciMMicah/haciMMicah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
